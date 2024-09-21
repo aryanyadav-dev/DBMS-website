@@ -22,7 +22,7 @@ This project is made in reference Database management system in Computer science
 
 Project  include : 
 - Setup guide for locally installing SQL workbench and CLI . 
-- All the PDF documents in regards to Practicals ,  Important Topics in DBMS .
+- All the PDF documents in regards to Practicals , Important Topics in DBMS .
 - Site also includes an Online SQL editor and other reference to learn about databases and SQL
 ### Built With
 
