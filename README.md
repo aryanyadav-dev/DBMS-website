@@ -90,10 +90,10 @@ Below is the Block-diagram for the project explaining the details and simple wor
 - <a href="https://github.com/GamerZone1006" target="_blank">  Github Profile</a> 
 - <a href="https://linkedin.com/in/anushka-m-yadav" target="_blank">  linkedin Profile</a> 
 
-Backend Dev : Unnat Malik 
-- <a href="https://github.com/UnnatMalik" target="_blank"> Github Profile</a> 
-- <a href="https://linkedin.com/in/unnat-malik-2b90bb2b4" target="_blank">  linkedin Profile</a> 
-
 Backend Dev : Aryan yadav 
 - <a href="https://github.com/aryanyadav-dev" target="_blank"> Github Profile</a> 
 - <a href="https://linkedin.com/in/-aryanyadav" target="_blank">  linkedin Profile</a> 
+
+Backend Dev : Unnat Malik 
+- <a href="https://github.com/UnnatMalik" target="_blank"> Github Profile</a> 
+- <a href="https://linkedin.com/in/unnat-malik-2b90bb2b4" target="_blank">  linkedin Profile</a> 
