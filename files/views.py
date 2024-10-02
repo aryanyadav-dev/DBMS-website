@@ -5,7 +5,7 @@ from django.shortcuts import get_object_or_404
 from .models import Filepdf
 
 def homepage(request):
-    return render(request,'dbms.html')
+    return render(request,'./dbms.html')
 
 def download_file(request, id):
     files = get_object_or_404(Filepdf, pk=id)
@@ -17,7 +17,6 @@ def download_file(request, id):
 
 def PPT(request):
     files = Filepdf.objects.all()
-    print(files[14::])
     context = {
         'files' : files[14::]
     }
@@ -25,7 +24,6 @@ def PPT(request):
 
 def Study(request):
     files = Filepdf.objects.all()
-    print(files[9:13])
     context = {
         'files' : files[9:13]
     }
@@ -33,7 +31,6 @@ def Study(request):
 
 def Practicals(request):
     files = Filepdf.objects.all()
-    print(files[:9])
     context = {
         'files' : files[:9]
     }
@@ -41,11 +38,10 @@ def Practicals(request):
 
 def Module(request):
     files = Filepdf.objects.all()
-    print(files[13::])
     context = {
         'files' : files[13::13]
     }
     return render(request, './Modules.html',context)
 
-def Anushka(request):
-    return render(request,'Anushka.html')
+def trail(request):
+    return render(request,'./trial.html')
