@@ -28,7 +28,7 @@ Project  include :
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-- [HMTL ](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Node](https://nodejs.org/en)
 - [Django](https://docs.djangoproject.com/en/5.1/)
