@@ -238,20 +238,45 @@
 
 <body>
     <style>
+        .mobile-message {
+            display: none; 
+            text-align: center; 
+            background-color: #f8d7da; 
+            color: #721c24;
+            padding: 10px; 
+            margin-bottom: 10px; 
+        }
+        @media (max-width: 768px) {
+            .mobile-message {
+                display: block; 
+            }
+        }
+        @media (min-width: 769px) {
+            .mobile-message {
+                display: none; 
+            }
+        }
         .dropdown-menu .dropdown-item:hover {
             color: orange !important; 
             background-color: transparent;
         }
+        .navbar-toggler-icon {
+            background-image: url('data:image/svg+xml,%3Csvg xmlns%3D%27http://www.w3.org/2000/svg%27 viewBox%3D%270 0 30 30%27%3E%3Cpath stroke%3D%27rgba%28255, 255, 255, 1%27 stroke-width%3D%272%27 d%3D%27M4 7h22M4 15h22M4 23h22%27/%3E%3C/svg%3E');
+        }
 </style>
     </style>
+    <div class="mobile-message">For better user experience, use a larger screen.</div> <!-- Mobile message -->
     <div class="page-wrapper">
         <div class="main-wrapper">
             <nav class="navbar navbar-expand-lg sticky-top" style="background-color: transparent;">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="Homepage.html" style="font-size: 2.5rem; color: white; font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif;">DBMS</a>
+                  <a class="navbar-brand" href=" " style="font-size: 2.5rem; color: white; font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif;">DBMS</a>
+                  
+                  <!-- Navbar toggler with custom icon styling -->
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon" style="color: white;"></span>
                   </button>
+                  
                   <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav" style="gap: 2rem; border-radius: 23px; background-color: rgba(255, 255, 255, 0.096); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); padding: 5px;">
                       <li class="nav-item dropdown">
@@ -267,10 +292,10 @@
                             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
                             border: 1px solid rgba(255, 255, 255, 0.2);
                         ">
-                          <li><a class="dropdown-item" href="#" style="color: white; font-weight: 500; padding: 10px;">Modules</a></li>
-                          <li><a class="dropdown-item" href="#" style="color: white; font-weight: 500; padding: 10px;">PPTs</a></li>
-                          <li><a class="dropdown-item" href="#" style="color: white; font-weight: 500; padding: 10px;">Practicals</a></li>
-                          <li><a class="dropdown-item" href="StudyMaterials.html" style="color: white; font-weight: 500; padding: 10px;">Study Materials</a></li>
+                          <li><a class="dropdown-item" href="Modules/" style="color: white; font-weight: 500; padding: 10px;">Modules</a></li>
+                          <li><a class="dropdown-item" href="ppt/" style="color: white; font-weight: 500; padding: 10px;">PPTs</a></li>
+                          <li><a class="dropdown-item" type= "submit"href="Practicals/" style="color: white; font-weight: 500; padding: 10px;">Practicals</a></li>
+                          <li><a class="dropdown-item" type="submit" href="StudyMaterial/" style="color: white; font-weight: 500; padding: 10px;">Study Materials</a></li>
                         </ul>
                       </li>
                       
@@ -290,7 +315,7 @@
                           <li><a class="dropdown-item" href="https://loukik-salvi.vercel.app/" style="color: white; font-weight: 500; padding: 10px;">Loukik Salvi <br>Mentor</a></li><hr style="color: white;">
                           <li><a class="dropdown-item" href="https://anushka-portofolio.vercel.app/" style="color: white; font-weight: 500; padding: 10px;">Anushka Yadav <br>Frontend Development</a></li><hr style="color: white;">
                           <li><a class="dropdown-item" href="https://unnat-malik.vercel.app/" style="color: white; font-weight: 500; padding: 10px;">Unnat Malik <br>Backend Development</a></li><hr style="color: white;">
-                          <li><a class="dropdown-item" href="https://aryanyadav-portfolio.vercel.app/" style="color: white; font-weight: 500; padding: 10px;">Aryan Yadav <br>Backend Development</a></li>
+                          <li><a class="dropdown-item" href="https://aryanyadav-portfolio.vercel.app/" style="color: white; font-weight: 500; padding: 10px;">Aryan Yadav <br>Deployment</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -783,7 +808,7 @@
                                 <div class="main-cta-col-2">
                                     <p class="text-size-regular">Enhance your skills by practicing what you've learnt by coding...</p>
                                     <div class="main-cta-buttons-wrapper">
-                                            <a href="https://onecompiler.com/mysql" target="_blank" class="button-primary w-inline-block">
+                                            <a href="trial/" target="_blank" class="button-primary w-inline-block">
                                             <div class="button-slide-item">
                                                 <img src="https://cdn-icons-png.flaticon.com/512/3272/3272665.png" loading="lazy" width="13" height="18" alt="" class="button-slide-item-img" /></div>
                                             <div class="book-a-demo-wrapper">
