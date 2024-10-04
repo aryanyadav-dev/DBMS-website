@@ -1,8 +1,16 @@
 {
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/index.html"
-        }
+    "version": 2,
+    "builds": [
+      {
+        "src": "DBMSwebsite/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "DBMSwebsite/wsgi.py"
+      }
     ]
-}
+  }
+  
