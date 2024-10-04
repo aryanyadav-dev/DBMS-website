@@ -86,7 +86,7 @@ Below is the Block-diagram for the project explaining the details and simple wor
 
 ## Contact
 
- Frontend dev : Anushka Yadav 
+ Frontend Dev : Anushka Yadav 
 - <a href="https://github.com/GamerZone1006" target="_blank">  Github Profile</a> 
 - <a href="https://linkedin.com/in/anushka-m-yadav" target="_blank">  Linkedin Profile</a> 
 
