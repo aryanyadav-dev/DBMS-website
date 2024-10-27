@@ -65,10 +65,11 @@ Start the server
   python manage.py runserver
 ```
 
-## Roadmap
+## Block-Diagram
 
 Below is the Block-diagram for the project explaining the details and simple workflow of our project : 
-![Screenshot 2024-09-21 083717](https://github.com/user-attachments/assets/0033141d-663d-47b8-9b23-1f2e7d0c40fa)
+![image](https://github.com/user-attachments/assets/dc1fc47d-4d64-42a1-a9f6-360f98233b52)
+
 
 ## Usage
 
