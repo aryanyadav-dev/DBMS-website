@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html data-wf-domain="" data-wf-page="665f27834e206c9660b3a633" data-wf-site="665f27834e206c9660b3a626" lang="en">
 <head>
+    {% load static %}
     <meta charset="utf-8" />
     <title>DBMS Website</title>
     <meta property="og:type" content="website" />
@@ -11,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="{% static 'files/favicon.png'%}"type="image/png" />
     <style>
         @media (min-width:992px) {
             html.w-mod-js:not(.w-mod-ix) [data-w-id="327681a8-4cda-fcd2-8e49-116859dd7b68"] {
@@ -30,7 +32,7 @@
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
     <script type="text/javascript">WebFont.load({ google: { families: ["Red Hat Mono:regular,500,700"] } });</script>
-     <script>!function () { var reb2b = window.reb2b = window.reb2b || []; if (reb2b.invoked) return; reb2b.invoked = true; reb2b.methods = ["identify", "collect"]; reb2b.factory = function (method) { return function () { var args = Array.prototype.slice.call(arguments); args.unshift(method); reb2b.push(args); return reb2b; }; }; for (var i = 0; i < reb2b.methods.length; i++) { var key = reb2b.methods[i]; reb2b[key] = reb2b.factory(key); } reb2b.load = function (key) { var script = document.createElement("script"); script.type = "text/javascript"; script.async = true; script.src = "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/" + key + "/reb2b.js.gz"; var first = document.getElementsByTagName("script")[0]; first.parentNode.insertBefore(script, first); }; reb2b.SNIPPET_VERSION = "1.0.1"; reb2b.load("8XOE9GHXQ4OM"); }();</script> 
+    <script>!function () { var reb2b = window.reb2b = window.reb2b || []; if (reb2b.invoked) return; reb2b.invoked = true; reb2b.methods = ["identify", "collect"]; reb2b.factory = function (method) { return function () { var args = Array.prototype.slice.call(arguments); args.unshift(method); reb2b.push(args); return reb2b; }; }; for (var i = 0; i < reb2b.methods.length; i++) { var key = reb2b.methods[i]; reb2b[key] = reb2b.factory(key); } reb2b.load = function (key) { var script = document.createElement("script"); script.type = "text/javascript"; script.async = true; script.src = "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/" + key + "/reb2b.js.gz"; var first = document.getElementsByTagName("script")[0]; first.parentNode.insertBefore(script, first); }; reb2b.SNIPPET_VERSION = "1.0.1"; reb2b.load("8XOE9GHXQ4OM"); }();</script> 
     <style>
      * {
         -webkit-font-smoothing: antialiased;
@@ -89,40 +91,22 @@
             mask-composite: exclude;
             pointer-events: none;
         }
-        /* .navbar.scrolled .nav-links-wrapper {
-            background: rgba(30, 33, 37, 0.8);
-        } */
-        /* .nav-links-wrapper.expanded {
-            background: #34312b !important;
-        } */
-        /* .nav-links-wrapper-inner{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0.3125rem;
-        } */
-        /* .nav-link-item{
-            margin: 0 -0.625rem;
-        } */
-        /* .nav-dropdown-icon {
-            transition: transform ease-in-out 0.3s;
-        } */
-        /* .nav-dropdown-icon.rotated {
-            transform: rotate(180deg);
-            transition: transform ease-in-out 0.3s;
-        } */
-        /* .navbar.scrolled {
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-        } */
-        
-        /* .nav-link-item:hover .nav-dot {
-            background: #f39727; 
-        } */
-        
-        /* .subnav-link.w--current .subnav-dot {
-            background: #f39727;
-        } */
+        .button-slide-item-img img{
+            background-size: cover;
+            height: fit-content;
+        }
+        .text-color-orange{
+            color: orange;
+        }
+        .button-primary:hover .button-slide-item {
+            margin-left: 100%;
+        }
+        .button-primary:hover .book-a-demo-wrapper {
+            opacity: 0;
+        }
+        .button-primary:hover .start-saving-wrapper {
+            opacity: 1;
+        }
         .button-slide-item-img img{
             background-size: cover;
             height: fit-content;
@@ -135,24 +119,6 @@
                 /* display: none !important; */
             }
         }
-        /* .subnav-link {
-            display: block;
-            padding: 0.625rem;
-            text-decoration: none; 
-            color: inherit;
-            border-bottom: 2px solid ; 
-            transition: border-color 0.3s ease; 
-        } */
-
-        /* .subnav-link:hover {
-            border-bottom: 2px solid orange; 
-            background-color: rgba(250, 166, 11, 0.2);
-        } */
-
-        /* .subnav-link:hover {
-            text-decoration: none !important; 
-            box-shadow: none !important; 
-        } */
         .typing-line {
             font-family: "VT323", monospace;
             font-size: 1.5em;
@@ -200,43 +166,105 @@
     </style>    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <style>
-        .swiper-next.is-disabled,
-        .swiper-prev.is-disabled {
-            opacity: 30%;
-            pointer-events: none;
-        }
         @media screen and (min-width: 481px) {
-        .nav-links-wrapper {
-            flex-direction: row; 
+            .nav-links-wrapper {
+                flex-direction: row; 
+            }
+    
+            .nav-link-item {
+                margin: 0 15px; 
+            }
         }
-
-        .nav-link-item {
-            margin: 0 15px; 
+    
+        @media screen and (max-width: 480px) {
+            .nav-links-wrapper {
+                flex-direction: column; 
+                align-items: flex-start; 
+                padding: 5px; 
+            }
+    
+            .nav-link-item {
+                margin: 5px 0; 
+                width: 100%; 
+            }
+    
+            .nav-links-dropdown-wrapper {
+                position: relative; 
+                width: 100%; 
+                box-shadow: none; 
+            }
+        }
+        #loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.99); 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999; 
+    }
+    
+    .loader {
+        width: 100px;
+        aspect-ratio: 1;
+        padding: 10px;
+        box-sizing: border-box;
+        display: grid;
+    }
+    
+    .loader:before {
+        content: "";
+        margin: auto;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: #ff9933;
+        box-shadow: 
+            -30px 0 #ff9933, 
+            30px 0 #ff9933, 
+            0 30px #ff9933, 
+            0 -30px #ff9933,
+            0 0 15px rgba(255, 153, 0, 0.8), 
+            0 0 25px rgba(255, 153, 0, 0.6), 
+            inset 0 0 10px rgba(255, 153, 0, 1); 
+        animation: l6 1s infinite alternate;
+    }
+    
+    @keyframes l6 {
+        90%, 100% {
+            box-shadow: -10px 0 #ff9933, 
+                        10px 0 #ff9933, 
+                        0 10px #ff9933, 
+                        0 -10px #ff9933;
+            transform: rotate(180deg);
         }
     }
-
-    @media screen and (max-width: 480px) {
-        .nav-links-wrapper {
-            flex-direction: column; 
-            align-items: flex-start; 
-            padding: 5px; 
-        }
-
-        .nav-link-item {
-            margin: 5px 0; 
-            width: 100%; 
-        }
-
-        .nav-links-dropdown-wrapper {
-            position: relative; 
-            width: 100%; 
-            box-shadow: none; 
-        }
+    
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
     }
+    
     </style>
 </head>
 
 <body>
+    <div id="loader" class="loader"></div>
+    <script>
+        window.addEventListener("load", function () {
+        setTimeout(function () {
+            const loader = document.getElementById("loader");
+            const content = document.getElementById("content");
+            loader.style.display = "none"; 
+            content.style.display = "block"; 
+        }, 2000);
+    });
+    </script>
     <style>
         .mobile-message {
             display: none; 
@@ -260,28 +288,48 @@
             color: orange !important; 
             background-color: transparent;
         }
-        .navbar-toggler-icon {
-            background-image: url('data:image/svg+xml,%3Csvg xmlns%3D%27http://www.w3.org/2000/svg%27 viewBox%3D%270 0 30 30%27%3E%3Cpath stroke%3D%27rgba%28255, 255, 255, 1%27 stroke-width%3D%272%27 d%3D%27M4 7h22M4 15h22M4 23h22%27/%3E%3C/svg%3E');
+        .navbar-brand img{
+            height: 10vh;
+        }
+        .navbar{
+            gap: 1rem;
+        }
+        @media (max-width: 768px) {
+            .navbar-brand {
+                font-size: 1rem !important;
+                display: flex;
+                align-items: center;
+                text-align: center;
+            }
+
+            .navbar-brand img {
+                height: 2rem;
+                margin: 0.5rem;
+            }
+
+            .navbar-toggler {
+                color: white !important;
+            }
         }
 </style>
-    </style>
+    {% load static %}
     <div class="mobile-message">For better user experience, use a larger screen.</div> <!-- Mobile message -->
     <div class="page-wrapper">
         <div class="main-wrapper">
-            <nav class="navbar navbar-expand-lg sticky-top" style="background-color: transparent;">
+            <nav class="navbar navbar-expand-lg sticky-top" style="background-color: transparent; gap: -50rem !important;">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href=" " style="font-size: 2.5rem; color: white; font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif;">DBMS</a>
-                  
-                  <!-- Navbar toggler with custom icon styling -->
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href=" " style="font-size: 2.5rem; color: white; font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                    DBMS | <img src="{% static 'files/complogo.png'%}" alt="complogo"> |<img src=" {% static 'files/tcetlogo.png'%}" alt="tcet logo">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon" style="color: white;"></span>
-                  </button>
-                  
-                  <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav" style="gap: 2rem; border-radius: 23px; background-color: rgba(255, 255, 255, 0.096); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); padding: 5px;">
-                      <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
-                          CONTENT
+                        CONTENT
                         </a>
                         <ul class="dropdown-menu" style="
                             background-color: rgba(255, 255, 255, 0.15);
@@ -292,39 +340,40 @@
                             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
                             border: 1px solid rgba(255, 255, 255, 0.2);
                         ">
-                          <li><a class="dropdown-item" href="Modules/" style="color: white; font-weight: 500; padding: 10px;">Modules</a></li>
-                          <li><a class="dropdown-item" href="ppt/" style="color: white; font-weight: 500; padding: 10px;">PPTs</a></li>
-                          <li><a class="dropdown-item" type= "submit"href="Practicals/" style="color: white; font-weight: 500; padding: 10px;">Practicals</a></li>
-                          <li><a class="dropdown-item" type="submit" href="StudyMaterial/" style="color: white; font-weight: 500; padding: 10px;">Study Materials</a></li>
-                        </ul>
-                      </li>
-                      
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
-                          DEVELOPERS
-                        </a>
-                        <ul class="dropdown-menu" style="
-                            background-color: rgba(255, 255, 255, 0.15);
-                            backdrop-filter: blur(15px);
-                            -webkit-backdrop-filter: blur(15px);
-                            border-radius: 15px;
-                            padding: 10px;
-                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-                            border: 1px solid rgba(255, 255, 255, 0.2);
-                        ">
-                          <li><a class="dropdown-item" href="https://loukik-salvi.vercel.app/" style="color: white; font-weight: 500; padding: 10px;">Loukik Salvi <br>Mentor</a></li><hr style="color: white;">
-                          <li><a class="dropdown-item" href="https://anushka-portofolio.vercel.app/" style="color: white; font-weight: 500; padding: 10px;">Anushka Yadav <br>Frontend Development</a></li><hr style="color: white;">
-                          <li><a class="dropdown-item" href="https://aryanyadav-portfolio.vercel.app/" style="color: white; font-weight: 500; padding: 10px;">Aryan Yadav <br>Backend Development</a></li><hr style="color: white;">
-                          <li><a class="dropdown-item" href="https://unnat-malik.vercel.app/" style="color: white; font-weight: 500; padding: 10px;">Unnat Malik <br>Backend Development</a></li>
-                        </ul>
-                      </li>
+                        <li><a class="dropdown-item" href="Modules/" style="color: white; font-weight: 500; padding: 10px;">Modules</a></li>
+                        <li><a class="dropdown-item" href="ppt/" style="color: white; font-weight: 500; padding: 10px;">PPTs</a></li>
+                        <li><a class="dropdown-item" href="Practicals/" style="color: white; font-weight: 500; padding: 10px;">Practicals</a></li>
+                        <li><a class="dropdown-item" href="StudyMaterial/" style="color: white; font-weight: 500; padding: 10px;">Study Materials</a></li>
+                        <li><a class="dropdown-item" href="" style="color: white; font-weight: 500; padding: 10px;">PYQ's</a></li>
                     </ul>
-                  </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                        DEVELOPERS
+                        </a>
+                        <ul class="dropdown-menu" style="
+                            background-color: rgba(255, 255, 255, 0.15);
+                            backdrop-filter: blur(15px);
+                            -webkit-backdrop-filter: blur(15px);
+                            border-radius: 15px;
+                            padding: 10px;
+                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+                            border: 1px solid rgba(255, 255, 255, 0.2);
+                        ">
+                        <li><a class="dropdown-item" href="https://loukik-salvi.vercel.app/" style="color: white; font-weight: 500; padding: 10px;">Loukik Salvi <br>Mentor</a></li><hr style="color: white;">
+                        <li><a class="dropdown-item" href="https://anushka-portofolio.vercel.app/" style="color: white; font-weight: 500; padding: 10px;">Anushka Yadav <br>Frontend Development</a></li><hr style="color: white;">
+                        <li><a class="dropdown-item" href="https://aryanyadav-portfolio.vercel.app/" style="color: white; font-weight: 500; padding: 10px;">Aryan Yadav <br>Backend Development</a></li><hr style="color: white;">
+                        <li><a class="dropdown-item" href="https://unnat-malik.vercel.app/" style="color: white; font-weight: 500; padding: 10px;">Unnat Malik <br>Backend Development</a></li>
+                        </ul>
+                    </li>
+                    </ul>
                 </div>
-              </nav>
-                         
+                </div>
+            </nav>
+                    
 
-              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
             
             <div class="star-space">
                 <div aria-hidden="true" class="constellation-home-1" data-w-id="fda62295-2b75-739a-1be1-4786d4c5af09"
@@ -426,9 +475,9 @@
                     </div>
                 </section>
             </div>
-             
+            
             <section class="section position-relative overflow-hidden">
-                 <div class="padding-global">
+                <div class="padding-global">
                     <div class="w-layout-blockcontainer container w-container">
                         <div class="padding-section-large">
                             <div class="faqs-title-wrapper">
