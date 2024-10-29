@@ -69,7 +69,8 @@ Start the server
 ## Block-Diagram
 
 Below is the Block-diagram for the project explaining the details and simple workflow of our project : 
-![image](https://github.com/user-attachments/assets/dc1fc47d-4d64-42a1-a9f6-360f98233b52)
+![image](https://github.com/user-attachments/assets/8419a96b-47d7-4680-95ac-8745fb34e8b1)
+
 
 
 ## Usage
