@@ -39,7 +39,7 @@ def Practicals(request):
 def Module(request):
     files = Filepdf.objects.all()
     context = {
-        'files' : files[13::13]
+        'files' : files[13:14]
     }
     return render(request, './Modules.html',context)
 
