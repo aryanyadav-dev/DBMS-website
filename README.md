@@ -16,7 +16,8 @@ This is a project about open to DBMS Website that is made by my team from Thakur
 </div>
 
 ## About The Project
-![Screenshot 2024-09-21 140414](https://github.com/user-attachments/assets/45cc8afc-dd4e-4832-b605-e1bb65891d92)
+![image](https://github.com/user-attachments/assets/73f249e6-7309-4398-a6a6-ebc9366c5744)
+
 <br>
 This project is made in reference Database management system in Computer science engineering . This project is all about helping students understand about DBMS and learn from all the resources available in this project . 
 
@@ -68,7 +69,8 @@ Start the server
 ## Block-Diagram
 
 Below is the Block-diagram for the project explaining the details and simple workflow of our project : 
-![image](https://github.com/user-attachments/assets/dc1fc47d-4d64-42a1-a9f6-360f98233b52)
+![image](https://github.com/user-attachments/assets/8419a96b-47d7-4680-95ac-8745fb34e8b1)
+
 
 
 ## Usage
