@@ -2,7 +2,7 @@
 <br/>
 <div align="center">
   
-[![Screenshot 2024-09-21 113615](https://github.com/user-attachments/assets/26190037-992a-4763-9089-a11d259a7683)](https://cdn-icons-png.flaticon.com/512/4248/4248443.png)
+(https://cdn-icons-png.flaticon.com/512/4248/4248443.png)
 
 <h3 align="center">DBMS-website</h3>
 <p align="center">
