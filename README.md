@@ -8,7 +8,7 @@
 
 <h3 align="center">DBMS-website</h3>
 <p align="center">
-This is a project about open to DBMS Website that is made by my team from Thakur college of engineering computer department  
+This is a project about open to DBMS Website that is made by my team from Thakur College of Engineering Computer Department  
 
 
   
