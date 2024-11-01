@@ -2,7 +2,8 @@
 <br/>
 <div align="center">
   
-(https://cdn-icons-png.flaticon.com/512/4248/4248443.png)
+  ![image](https://github.com/user-attachments/assets/fe6d08e6-4552-4543-afdf-f033e422cd62)
+
 
 <h3 align="center">DBMS-website</h3>
 <p align="center">
