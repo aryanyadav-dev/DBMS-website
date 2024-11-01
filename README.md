@@ -2,7 +2,8 @@
 <br/>
 <div align="center">
   
-  ![image](https://github.com/user-attachments/assets/fe6d08e6-4552-4543-afdf-f033e422cd62)
+![Screenshot 2024-11-01 200437](https://github.com/user-attachments/assets/ef1dc111-441c-4313-9f9e-14b4a8458703)
+
 
 
 <h3 align="center">DBMS-website</h3>
