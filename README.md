@@ -2,7 +2,7 @@
 <br/>
 <div align="center">
   
-![Screenshot 2024-11-01 200437](https://github.com/user-attachments/assets/ef1dc111-441c-4313-9f9e-14b4a8458703)
+<img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png" alt="Logo" width="80" height="80">
 
 
 
