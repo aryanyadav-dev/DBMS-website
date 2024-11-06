@@ -2,11 +2,13 @@
 <br/>
 <div align="center">
   
-![Screenshot 2024-09-21 113615](https://github.com/user-attachments/assets/26190037-992a-4763-9089-a11d259a7683)
+<img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png" alt="Logo" width="80" height="80">
+
+
 
 <h3 align="center">DBMS-website</h3>
 <p align="center">
-This is a project about open to DBMS Website that is made by my team from Thakur college of engineering computer department  
+This is a project about open to DBMS Website that is made by my team from Thakur College of Engineering Computer Department  
 
 
   
