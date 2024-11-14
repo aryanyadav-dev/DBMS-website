@@ -18,7 +18,7 @@ def download_file(request, id):
 def PPT(request):
     files = Filepdf.objects.all()
     context = {
-        'files' : files[14::]
+        'files' : files[14:25]
     }
     return render(request, './ppt.html',context)
 
@@ -39,9 +39,17 @@ def Practicals(request):
 def Module(request):
     files = Filepdf.objects.all()
     context = {
-        'files' : files[13::13]
+        'files' : files[13:14]
     }
     return render(request, './Modules.html',context)
+
+def PYQ(request):
+    files = Filepdf.objects.all()
+    context = {
+        'files' : files[25::]
+    }
+    return render(request, './PYQ.html',context)
+
 
 def trail(request):
     return render(request,'./trial.html')
